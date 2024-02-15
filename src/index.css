@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 400px;
+  height: 98vh;
+  margin: auto;
+  font-family: Rubik;
+}
+
+.container {
+  position: relative;
+  background-color: #F7F8F9;
+  height: 98vh;
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.WelcomeContent {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 6%;
+}
+
+.WelcomeContent * {
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 600px;
+}
+
+p {
+  font-size: 18px;
+  color: #7d8083;
+}
+
+.signUpBtn button {
+  background-color: #6C25FF;
+  color: #ffffff;
+  font-weight: bold;
+  width: 100%;
+  padding: 15px;
+  font-size: 15px;
+}
+
+.loginBtn button {
+  border: none;
+  border-radius: 6px;
+  background-color: #6C25FF4B;
+  color: #1D2226;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  font-family: Rubik;
+  font-weight: bold;
+  width: 100%;
+  font-size: 15px;
+  padding: 15px;
+}
+
+.SignUpContent {
+  padding: 0 6%;
+  box-sizing: border-box;
+}
+
+.SignUpContent legend {
+  margin-left: 10px;
+  color: #6C25FF;
+  font-weight: 600;
+  font-family: Rubik;
+  font-size: 13px;
+}
+
+/*  */
+
+input {
+  border: none;
+  width: 100%;
+  height: auto;
+  padding: 3px 10px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background-color: inherit;
+  display: inline;
+}
+
+input::placeholder {
+  font-weight: bold;
+}
+
+input:focus {
+  outline: none;
+}
+
+fieldset {
+  border-radius: 6px;
+  box-sizing: content-box;
+  padding: 6px;
+}
+
+h2,
+fieldset {
+  margin-bottom: 15px;
+}
+
+input[type="radio"] {
+  width: 15%;
+}
+
+.signUpContentBtn {
+  position: absolute;
+  bottom: 0;
+  width: 88%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.signUpContentBtn button {
+  background-color: #CBCBCB;
+}
+
+.loginContent {
+  color: #1D2226;
+  background-color: #FFF;
+  padding: 6%;
+}
+
+.loginContentBtn button {
+  background-color: #CBCBCB;
+}
+
+.loginContent legend {
+  margin-left: 10px;
+  color: #6C25FF;
+  font-weight: 600;
+  font-family: Rubik;
+  font-size: 13px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.SignUpContent p {
+  color: #1D2226;
+}
+
+.profileContent {
+  padding: 0 6%;
+}
+
+#profile {
+  color: #1D2226;
+  background-color: #FFF;
+  padding: 6%;
+}
+
+img {
+  margin-right: 10%;
+}
+
+.d-flex {
+  display: flex;
+  position: relative;
+}
+
+#choose {
+  position: absolute;
+  left: 59px;
+  top: 52px;
+}
+
+#desc {
+  color: #1D2226;
+  margin-top: 30px;
+  font-family: Rubik;
+  font-size: 13px;
+}
